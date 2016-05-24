@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LearnTextVis</title>
+    <description>Introduction to Text Analysis and Text Visualization.
+</description>
+    <link>http://learntextvis.github.io/</link>
+    <atom:link href="http://learntextvis.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 24 May 2016 11:07:48 -0700</pubDate>
+    <lastBuildDate>Tue, 24 May 2016 11:07:48 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Clustering Documents</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c06-clustering-documents/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c06-clustering-documents/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tokens over Time</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c05-tokens-over-time/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c05-tokens-over-time/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Comparing Documents</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c04-comparing-documents/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c04-comparing-documents/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Document Metrics</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c03-documents/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c03-documents/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tokens in Documents</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c02-tokens-in-documents/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c02-tokens-in-documents/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Tokenization</title>
+        <description></description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c01-tokenizing/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c01-tokenizing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Seattle Birdseye View - 1884</title>
+        <description>&lt;p&gt;Beck &amp;amp; Pauli&amp;#39;s birdseye map of Seattle, Washington Territory, in 1884.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://learntextvis.github.io/c00-setup/</link>
+        <guid isPermaLink="true">http://learntextvis.github.io/c00-setup/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
