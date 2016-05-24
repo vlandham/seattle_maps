@@ -3,4 +3,4 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3"
 gem "rouge"
-gem "redcarpet", "~> 3.3"
+gem "kramdown", "~> 1.11"
