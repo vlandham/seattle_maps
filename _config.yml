@@ -6,16 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: LearnTextVis
-email: test@domain.com
+title: Seattle Maps
+email: vlandham@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
- Introduction to Text Analysis and Text Visualization.
+ Historical Maps of Seattle and Surrounding areas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://learntextvis.github.io" # the base hostname & protocol for your site
-twitter_username: learntextvis
-github_username:  learntextvis
-facebook_username: learntextvis
+url: "http://vallandingham.me/seattle_maps" # the base hostname & protocol for your site
 permalink: /:title/
+
+collections:
+  maps:
+    output: true
 
 # Build settings
 encoding: utf-8

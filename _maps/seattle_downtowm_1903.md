@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: Seattle Business District - 1903
+mapid: seattle_downtowm_1903
 link: maps/seattle_downtowm_1903.jpg
 filename: seattle_downtowm_1903.jpg
 year: 1903

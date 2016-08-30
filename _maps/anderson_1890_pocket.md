@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: City of Seattle - 1890
+mapid: anderson_1890_pocket
 link: maps/anderson_1890_pocket.jpg
 filename: anderson_1890_pocket.jpg
 year: 1890

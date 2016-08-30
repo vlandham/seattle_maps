@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: Seattle Times Guide to Washington - 1935
+mapid: seattle_times_1935
 link: maps/seattle_times_1935.jpg
 filename: seattle_times_1935.jpg
 year: 1935

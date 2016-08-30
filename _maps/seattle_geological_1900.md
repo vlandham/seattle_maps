@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: Seattle Geological Survey - 1900
+mapid: seattle_geological_1900
 link: maps/seattle_geological_1900.jpg
 filename: seattle_geological_1900.jpg
 year: 1900

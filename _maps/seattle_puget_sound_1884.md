@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: Seattle Birdseye View - 1884
+mapid: seattle_puget_sound_1884
 link: maps/seattle_puget_sound_1884.jpg
 filename: seattle_puget_sound_1884.jpg
 year: 1884

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: map
 title: Seattle Birdseye - 1925
+mapid: seattle_birdseye_1925
 link: maps/seattle_birdseye_1925.jpg
 filename: seattle_birdseye_1925.jpg
 year: 1925
