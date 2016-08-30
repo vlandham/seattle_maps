@@ -23,3 +23,6 @@ combine:
 
 pdf: combine
 	cd $(TEMP_DIR) && $(PDF_BUILDER) $(PDF_BUILDER_FLAGS) $(BOOK_FILE_NAME).md -o $(BOOK_FILE_NAME).pdf
+
+thumb:
+	./tools/create_thumbnails.sh
