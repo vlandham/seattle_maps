@@ -3,7 +3,12 @@ layout: default
 ---
 
 <div class="content">
+  <p><strong>About:</strong></p>
   {{ content }}
+
+<p>
+  <a href={{ page.link | prepend: site.baseurl }}>Original Image</a>
+</p>
 
   {% include zoom_map.html mapid=page.mapid %}
 </div>
