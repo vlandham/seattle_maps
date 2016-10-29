@@ -11,6 +11,10 @@
   #logo {
     width: 300px;
   }
+
+  a {
+    color: #1C1C1C;
+  }
 }
 
 .footer {
@@ -19,6 +23,11 @@
   clear: both;
   display: inline-block;
   width: 100%;
-  color: #1C1C1C;
-  background-color: #eaeaea;
+  a {
+    color: #1C1C1C;
+  }
+
+  p {
+    padding-left: 20px;
+  }
 }
