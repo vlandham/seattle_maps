@@ -7,7 +7,7 @@ layout: default
   {{ content }}
 
 <p>
-  <a href={{ page.link | prepend: site.baseurl | prepend: site.url }}>Original Image</a>
+  <a href={{ page.link | prepend: site.baseurlslash }}>Original Image</a>
 </p>
 
   {% include zoom_map.html mapid=page.mapid %}
