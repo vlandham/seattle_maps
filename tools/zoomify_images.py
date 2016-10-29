@@ -5,23 +5,28 @@ import glob
 import os
 import deepzoom
 
-CUR_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_DIR = '../img/maps'
 OUTPUT_DIR = '../img/map_zooms'
 
 
-input_filenames = glob.glob(os.path.join(CUR_DIR, INPUT_DIR, '*.jpg'))
+CUR_DIR = os.path.dirname(os.path.abspath(__file__))
 
-creator = deepzoom.ImageCreator(tile_size=128, tile_overlap=2, tile_format="jpg",
-                                image_quality=0.7, resize_filter="bicubic")
+def main(input_dir, output_dir, pattern):
 
-for filename in input_filenames:
-    print(filename)
-    basename = os.path.basename(filename).split('.')[0]
+    input_filenames = glob.glob(os.path.join(CUR_DIR, input_dir, pattern))
 
-    output_file = os.path.join(CUR_DIR, OUTPUT_DIR, basename + ".dzi")
-    creator.create(filename, output_file)
+    creator = deepzoom.ImageCreator(tile_size=128, tile_overlap=2, tile_format="jpg",
+                                    image_quality=0.7, resize_filter="bicubic")
 
+    for filename in input_filenames:
+        print(filename)
+        basename = os.path.basename(filename).split('.')[0]
+
+        output_file = os.path.join(CUR_DIR, output_dir, basename + ".dzi")
+        creator.create(filename, output_file)
+
+
+main(INPUT_DIR, OUTPUT_DIR, "hughes_1891.jpg")
 # Specify your source image
 #SOURCE = "helloworld.jpg"
 
