@@ -6,6 +6,20 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  {% if page.filename %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@vlandham">
+  <meta name="twitter:creator" content="@vlandham">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.content }}">
+  <meta name="twitter:image:src" content="{{ page.filename | prepend: site.baseurlthumb }}">
+  {% else %}
+  <meta name="twitter:site" content="@vlandham">
+  <meta name="twitter:creator" content="@vlandham">
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% endif %}
+
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

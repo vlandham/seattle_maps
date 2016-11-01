@@ -12,6 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
  Historical Maps of Seattle and Surrounding areas.
 baseurl: "/seattle_maps" # the subpath of your site, e.g. /blog
 baseurlslash: "/seattle_maps/img/" # the subpath of your site, e.g. /blog
+baseurlthumb: "/seatte_maps/img/thumb/"
 url: "http://vallandingham.me" # the base hostname & protocol for your site
 permalink: /:title/
 
