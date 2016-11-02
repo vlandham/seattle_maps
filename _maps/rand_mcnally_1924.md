@@ -1,7 +1,7 @@
 ---
 layout: map
 title: Rand McNally Street Map - 1924
-mapid: birds_eye_puget_sound_1891
+mapid: rand_mcnally_1924
 link: maps/rand_mcnally_1924.jpg
 filename: rand_mcnally_1924.jpg
 year: 1924
