@@ -4,6 +4,7 @@
 import glob
 import os
 import deepzoom
+import argparse
 
 INPUT_DIR = '../img/maps'
 OUTPUT_DIR = '../img/map_zooms'
@@ -26,7 +27,11 @@ def main(input_dir, output_dir, pattern):
         creator.create(filename, output_file)
 
 
-main(INPUT_DIR, OUTPUT_DIR, "hughes_1891.jpg")
+parser = argparse.ArgumentParser(description='Zoomify Images.')
+parser.add_argument('--pattern', type=str, default="*.json",
+                    help='pattern to look for')
+args = parser.parse_args()
+main(INPUT_DIR, OUTPUT_DIR, args.pattern)
 # Specify your source image
 #SOURCE = "helloworld.jpg"
 
